@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #887d7d, #6d7c90)
+
+}
+
+.conteiner{
+
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background-color: #f4ebeb;
+    border-radius: 32px;
+    box-shadow: 0 0 30px rgba(52, 34, 67, 0.3)
+}
+
+.form-box{
+
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: #82cac4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+form{
+
+    width: 100%;
+}
+
+.conteiner h1{
+
+    font-size: 40px;
+    margin: -15px 0;
+
+}
+
+.Input-box{
+
+    position: relative;
+    margin: 20px 0;
+
+}
+
+.Input-box input{
+
+    width: 80%;
+    padding: 08px 50px 08px 20px;
+    background-color: #f1f2f6;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #2e3034;
+    font-weight: 500;
+
+}
+
+.Input-box input::placeholder{
+
+    color: #8291ab;
+    font-weight: 400;
+
+}
+
+.Input-box i {
+
+    position: absolute;
+    right: 40px;
+    top: 25%;
+    transform: translateY(-10%);
+    font-size: 20px;
+    color: #5f6672;
+}
+
+.forgot-link {
+
+    margin: -12px 0 15px;
+
+}
+
+.forgot-link a {
+
+    font-size: 14.5px;
+    color: #425681;
+    text-decoration: none;
+}
+
+.btn {
+
+    width: 40%;
+    height: 40px;
+    background: #4aa27f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f9efef;
+    font-weight: 500;
+
+}
+
+.conteiner p{
+
+    font-size: 14.5px;
+    color: #425681;
+    margin: 15px 0;
+
+}
+
+.social-icons a{
+
+    display: inline flex;
+    padding: 10px;
+    border: 2px solid #f1e8e8;
+    border-radius: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0 08px;
+}
